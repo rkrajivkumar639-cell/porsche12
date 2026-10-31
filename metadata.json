@@ -1,0 +1,6 @@
+{
+  "name": "Porsche - Driven by Perfection",
+  "description": "Experience the ultimate Porsche automotive showcase featuring the 911 Carrera, GT3 RS, Turbo S, 718 Cayman GT4 RS, Taycan Turbo GT, Cayenne, and Panamera with official Indian ex-showroom pricing, engineering telemetry, interactive car galleries, and test-drive bookings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
