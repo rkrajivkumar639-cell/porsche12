@@ -17,6 +17,13 @@
   </head>
   <body class="bg-neutral-950 text-neutral-100 font-sans antialiased selection:bg-red-600 selection:text-white overflow-x-hidden" style="background-color: #0a0a0a; color: #f5f5f5; min-height: 100vh;">
     <div id="root"></div>
+    <script>
+      if (window.location.hostname.endsWith('github.io')) {
+        if (!window.location.pathname.includes('/docs')) {
+          window.location.replace('./docs/');
+        }
+      }
+    </script>
   </body>
 </html>
 
