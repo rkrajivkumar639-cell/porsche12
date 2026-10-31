@@ -15,23 +15,7 @@
   </head>
   <body class="bg-neutral-950 text-neutral-100 font-sans antialiased selection:bg-red-600 selection:text-white overflow-x-hidden" style="background-color: #0a0a0a; color: #f5f5f5; min-height: 100vh;">
     <div id="root"></div>
-    <script type="module">
-      if (window.location.hostname.includes('github.io')) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.crossOrigin = 'anonymous';
-        link.href = './docs/assets/main.css';
-        document.head.appendChild(link);
-
-        const script = document.createElement('script');
-        script.type = 'module';
-        script.crossOrigin = 'anonymous';
-        script.src = './docs/assets/app.js';
-        document.body.appendChild(script);
-      } else {
-        import('/src/main.tsx');
-      }
-    </script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
 
